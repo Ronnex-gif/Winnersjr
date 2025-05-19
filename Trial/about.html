@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Winners Junior School</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+    }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #5febeb;
+}
+
+header {
+  background-color: #3d6286;
+  color: rgb(209, 160, 160);
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: rgb(75, 61, 61);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+
+form input, form textarea {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.gallery img {
+  margin: 30px;
+  width: 150px;
+  height: 160px;
+}
+
+.videos {
+  margin-top: 20px;
+}
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer-columns div {
+  margin: 10px;
+}
+
+.footer-columns a {
+  color: #aaddff;
+  text-decoration: none;
+}
+
+.footer-columns a:hover {
+  text-decoration: underline;
+}
+    .center-header {
+      text-align: center;
+      background-color: #51a2e6;
+      color: #0c0606;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #004080;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 50, 0.1);
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .info-image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 50, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .info-image img:hover {
+      transform: scale(1.02);
+    }
+
+    .info-cards-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding-top: 30px;
+    }
+
+    .info-card {
+      background: linear-gradient(to bottom right, #e9f2ff, #dceaff);
+      border-left: 6px solid #004080;
+      border-radius: 14px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0, 0, 50, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .info-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0, 0, 80, 0.2);
+    }
+
+    .info-card h2 {
+      color: #003366;
+      margin-bottom: 15px;
+      font-size: 20px;
+      border-bottom: 2px solid #66b3ff;
+      padding-bottom: 5px;
+    }
+
+    .info-card p,
+    .info-card ul {
+      font-size: 15.5px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+
+    .info-card ul {
+      padding-left: 20px;
+      list-style: disc;
+    }
+
+    .play-btn {
+      background-color: #004080;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 15px;
+      margin-top: 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .play-btn:hover {
+      background-color: #0066cc;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #cfcfcf;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .footer-columns {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto 30px auto;
+    }
+
+    .footer-card {
+      background-color: #004080;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+      color: #f0f8ff;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .footer-card:hover {
+      transform: translateY(-5px);
+      background-color: #0059b3;
+    }
+
+    .footer-card h4 {
+      color: #66ccff;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .footer-card p,
+    .footer-card a {
+      font-size: 15px;
+      color: #cfe8ff;
+      margin: 5px 0;
+    }
+
+    .footer-card a {
+      text-decoration: none;
+    }
+
+    .footer-card a:hover {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+    .narrator-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <header class="center-header">
+    <img src="/Assets/Rogers logo1.jpg" alt="School Logo" class="logo" />
+    <h1>Winners Junior School</h1>
+    <nav>
+      <a href="Home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="Admission.html">Admission & Fees</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-wrapper">
+      <div class="info-image">
+        <img src="/Assets/Admin block.jpg" alt="Winners School" />
+      </div>
+      <div class="info-cards-row">
+        <div class="info-card">
+          <h2>Our Mission</h2>
+          <p>To develop a generation of forward-thinking children who are physically and mentally prepared to face unexpected challenges with a balanced personality.</p>
+        </div>
+        <div class="info-card">
+          <h2>Our Vision</h2>
+          <p>Knowledge Is The Key To Success</p>
+        </div>
+        <div class="info-card">
+          <h2>Core Values</h2>
+          <ul>
+            <li>Fear of God</li>
+            <li>Respect for humanity</li>
+            <li>Integrity</li>
+            <li>Academic Excellence</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h2>School Anthem</h2>
+          <img src="/Assets/HT.jpg" alt="Narrator" class="narrator-image" />
+          <p>
+            Oh Winners Junior School of diligent children,<br />
+           We are humble and gentle,<br />
+           Discipline is our daily bread<br />
+           Hard work leads us to success <br />
+           God bless Winners Junior School,<br />
+           Bless all of our administrators ,<br />
+           Bless all parents and teachers <br />
+           Fighting ignorance and God fearing are our follow ups</br>
+           As we are looking forward to building a generation,<br />
+           Of forward thinking children who are physically and mentally ,<br />
+           Prepared to face unexpected challenges<br />
+           With a balanced personality<br />
+            Through knowledge we conquer,}*2<br />
+            
+          </p>
+          <button class="play-btn" onclick="toggleAnthem()">▶ Play Anthem</button>
+          <audio id="anthem-audio">
+            <source src="/Assets/VID_20241027_112404.mp4" type="audio/mpeg" />
+            
+          </audio>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-cards">
+    <div class="footer-card">
+      <h3>📞 Contact Us</h3>
+      <p>Email: <a href="mailto:winnersjuniorschool@gmail.com">winnersjuniorschool@gmail.com</a></p>
+      <p>Phone: <a href="tel:+256782856874">+256 782856874</a></p>
+      <p>Phone: <a href="tel:+256782018720">+256782018720</a></p>
+    </div>
+  
+    <div class="footer-card">
+      <h3>📍 Location & Legal</h3>
+      <p>Mutebile Road, Kijuguta</p>
+      <p>Kabale, Uganda</p>
+      <a href="https://www.google.com/maps/place/Winners+Junior+School+,Kabale/@
+      -1.2392069,29.9729274,106m/data=!3m1!1e3!4m6!3m5!1s0x19dc0f3972fa620f:0x705c53
+      b78d54369a!8m2!3d-1.239194!4d29.9729935!1
+      6s%2Fg%2F11xclkng7f?entry=ttu&g_ep=EgoyMDI1MDUwNS4wIKXMDSoASAFQAw%3D%3D" class="footer-link">📍 Google Maps</a><br>
+      <a href="/index.html" class="footer-link">📝 Terms & Conditions</a>
+    </div>
+  
+    <div class="footer-card">
+      <h3>📱 Follow Us</h3>
+      <div class="social-icons">
+        <a href="#" title="Facebook">📘 Facebook</a><br>
+        <a href="#" title="Twitter">🐦 Twitter</a><br>
+        <a href="#" title="Instagram">📸 Instagram</a>
+      </div>
+    </div>
+  
+    <div class="footer-note">
+      <p>&copy; 2025 Winners Junior School. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleAnthem() {
+      const audio = document.getElementById("anthem-audio");
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+  </script>
+</body>
+</html>

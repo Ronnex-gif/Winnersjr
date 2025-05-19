@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width"/>
+  <title>            Admission @ Winners Junior School</title>
+  <link rel="stylesheet" href="Home.css" />
+</head>
+<header class="center-header">
+    <img src="/Assets/Rogers logo1.jpg" alt="School Logo" class="logo" />
+<body>
+  <style>
+    body{
+      background-image: url(/Assets/Admin\ block.jpg);
+    }
+    .center-header {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: rgb(15, 223, 238);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .main-image {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+    background-color: darkolivegreen;
+  }
+  body{
+    background-color: rgba(15, 173, 121, 0.856);
+    
+  }
+h
+
+
+
+  button{
+    height: 1cm;
+    color: #1992d8;
+    border: #000000;
+    background-color: rgba(192, 21, 21, 0.692);
+    width: 100%;
+    font-size: xx-large;
+  }
+ 
+    button :hover{
+color: #479225;
+height: 1cm;
+background-color: #03050c;
+width: 100%;
+font-size: xx-large;
+    }
+    .programs-section {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #2b1a8b;
+    }
+    
+    .programs-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    
+    .program-card {
+      flex: 1;
+      max-width: 300px;
+      color: rgb(32, 85, 121);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: left;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .program-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: rgb(140, 226, 59);
+      text-decoration: underline;
+    }
+   .program-card:hover{
+    transform: translateY(10px);
+   }
+   
+
+    footer {
+      background-color: #1380ec;
+      color: rgb(199, 177, 177);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    
+    .footer-columns {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+      padding: 20px;
+      margin: 0 auto 30px auto;
+      max-width: 1000px;
+    }
+    
+    .footer-card {
+      background-color: #004080;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+      color: #f0f8ff;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .footer-card:hover {
+      transform: translateY(-5px);
+      background-color: #0059b3;
+    }
+    
+    .footer-card h4 {
+      color: #66ccff;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    
+    .footer-card p,
+    .footer-card a {
+      font-size: 15px;
+      color: #94afc9;
+      margin: 5px 0;
+    }
+    
+    .footer-card a {
+      text-decoration: none;
+    }
+    
+    .footer-card a:hover {
+      text-decoration: underline;
+      color: #31bd66;
+    }
+    .info-cards-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding-top: 30px;
+    }
+    
+    .info-card {
+      background: linear-gradient(to bottom right, #e9f2ff, #dceaff);
+      border-left: 6px solid #004080;
+      border-radius: 14px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0, 0, 50, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .info-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0, 0, 80, 0.2);
+    }
+    
+    .info-card h2 {
+      color: #003366;
+      margin-bottom: 15px;
+      font-size: 20px;
+      border-bottom: 2px solid #66b3ff;
+      padding-bottom: 5px;
+    }
+    
+    .info-card p,
+    .info-card ul {
+      font-size: 15.5px;
+      color: #5f0a3e;
+      line-height: 1.7;
+    }
+    
+    .info-card ul {
+      padding-left: 20px;
+      list-style: disc;
+    }
+
+    h2{
+text-decoration: underline;
+color: #479225;
+background-color: #e05098;
+
+
+    }
+    .card-footer p[data-icon="📧"]::before {
+      content: "📧 ";
+    }
+    
+    .card-footer p[data-icon="📞"]::before {
+      content: "📞 ";
+    }
+
+      footer {
+        background-color: #3f5877;
+        color: #2c0e0e;
+        font-family: 'Poppins', sans-serif;
+        padding: 40px 20px;
+      }
+    
+      .footer-columns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 20px;
+      }
+    
+      .footer-card {
+        background: #d4c74d;
+        border-radius: 12px;
+        padding: 20px;
+        width: 98%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+    
+      .footer-card h4 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #aaddff;
+      }
+    
+      .footer-card p,
+      .footer-card a {
+        color: #5fe066;
+        font-size: 14px;
+        line-height: 1.6;
+        text-decoration: none;
+      }
+    
+      .footer-card a:hover {
+        text-decoration: underline;
+        color: #5a77d6;
+      }
+    
+      footer p:last-child {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 14px;
+        color: #0ac4dd;
+      }
+   
+    
+    
+
+.fees-section {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.fees-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fee-card {
+  background: #4eb609;
+  border-left: 6px solid #040a0f;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(9, 209, 245, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.fee-card:hover {
+  transform: scale(1.05);
+}
+
+.fee-card h3 {
+  color: #020c16;
+  margin-bottom: 10px;
+}
+
+.admission-form-section {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #5bc599;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 50, 0.1);
+}
+
+.admission-form h2 {
+  text-align: center;
+}
+
+.admission-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.admission-form input,
+.admission-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #690000;
+  border-radius: 6px;
+}
+
+.admission-form button {
+  margin-top: 10px;
+  padding: 30px;
+  background: #004080;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: progress;
+}
+
+.admission-form button:hover {
+  background: #002f5f;
+}
+.card-footer p[data-icon="📧"]::before {
+      content: "📧 ";
+    }
+    
+    .card-footer p[data-icon="📞"]::before {
+      content: "📞 ";
+    }
+
+
+footer {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .footer-columns div {
+      margin: 10px;
+    }
+
+    .footer-columns a {
+      color: #aaddff;
+      text-decoration: none;
+    }
+
+    .footer-columns a:hover {
+      text-decoration: underline;
+    }
+    .content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  gap: 40px;
+}
+
+.info-image img {
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 50, 0.2);
+}
+
+.info-cards-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 1;
+}
+
+.info-card {
+  flex: 1;
+  min-width: 250px;
+  background: #f0f6ff;
+  border-top: 6px solid #004080;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 50, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card h2 {
+  color: #002244;
+  margin-bottom: 10px;
+}
+
+.info-card p,
+.info-card ul {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.info-card ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+
+
+
+  </style>
+    
+    <h1>Admission  And Fees Structure</h1>
+    <nav>
+      <a href="Home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="Admission.html">Admission and fees</a>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section class="fees-section">
+      <h2>Fees Structure</h2>
+      <div class="fees-cards">
+        <div class="fee-card">
+          <h3>Nursery</h3>
+          <p>Tuition: UGX 120,000</p>
+          <p>Uniform: UGX 80,000</p>
+          <p>Meals: UGX 50,000</p>
+        </div>
+  
+        <div class="fee-card">
+          <h3>Lower Primary (P1–P2)</h3>
+          <p>Tuition: UGX 130,000</p>
+          <p>Uniform: UGX 110,000</p>
+          <p>Meals: UGX 50,000</p>
+        </div>
+  
+        <div class="fee-card">
+          <h3>Upper Primary (P3–P5)</h3>
+          <p>Tuition: UGX 150,000</p>
+          <p>Uniform: UGX 110,000</p>
+          <p>Meals: UGX 50,000</p>
+          <p>Remedial:UGX 30,000</p>
+        </div>
+  
+        <div class="fee-card">
+          <h3>P6 </h3>
+          <p>Tuition: UGX 130,000</p>
+          <p>Uniform: UGX 110,000</p>
+          <p>Meals: UGX 50,000</p>
+          <p>MRemedial:Ugx 30,000</p>
+        </div>
+        <div class="fee-card">
+          <h3>Candidate class</h3>
+          <p>Tuition: UGX 400,000</p>
+          <p>Uniform: UGX 110,000</p>
+          <p>Meals: UGX 50,000</p>
+          <p>Remedial:Ugx 30,000</p>
+        </div>
+      </div>
+    </section>
+    <h3>School fees are subject to change</h3>
+  
+    <section class="admission-form-section">
+      <h2>Admission Form</h2>
+      <form class="admission-form">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required />
+  
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+  
+        <label for="class">Class Applying For:</label>
+        <select id="class" name="class" required>
+          <option value="">--Select--</option>
+          <option>Nursery</option>
+          <option>Primary 1</option>
+          <option>Primary 2</option>
+          <option>Primary 3</option>
+          <option>Primary 4</option>
+          <option>Primary 5</option>
+          <option>Primary 6</option>
+          <option>Primary 7</option>
+        </select>
+  
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">--Select--</option>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+  
+        <label for="parent">Parent/Guardian Name:</label>
+        <input type="text" id="parent" name="parent" required />
+  
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+  
+        <label for="address">Home Address:</label>
+        <input type="text" id="address" name="address" required />
+
+        <label for="parent's NIN">Parent/Guardian's NIN:</label>
+        <input type="text" id="parent's NIN" name="parent's NIN" required />
+  
+  
+        <button type="submit"> Submit Application</button> 
+      </form>
+    </section>
+  </main>
+  
+  </main>
+   
+ 
+  <footer class="footer-cards">
+    <div class="footer-card">
+      <h3>📞 Contact Us</h3>
+      <p>Email: <a href="mailto:winnersjuniorschool@gmail.com">winnersjuniorschool@gmail.com</a></p>
+      <p>Phone: <a href="tel:+256782856874">+256 782856874</a></p>
+      <p>Phone: <a href="tel:+256782018720">+256782018720</a></p>
+    </div>
+  
+    <div class="footer-card">
+      <h3>📍 Location & Legal</h3>
+      <p>Mutebile Road, Kijuguta</p>
+      <p>Kabale, Uganda</p>
+      <a href="https://www.google.com/maps/place/Winners+Junior+School+,Kabale/@
+      -1.2392069,29.9729274,106m/data=!3m1!1e3!4m6!3m5!1s0x19dc0f3972fa620f:0x705c53
+      b78d54369a!8m2!3d-1.239194!4d29.9729935!1
+      6s%2Fg%2F11xclkng7f?entry=ttu&g_ep=EgoyMDI1MDUwNS4wIKXMDSoASAFQAw%3D%3D" class="footer-link">📍 Google Maps</a><br>
+      <a href="/index.html" class="footer-link">📝 Terms & Conditions</a>
+    </div>
+  
+    <div class="footer-card">
+      <h3>📱 Follow Us</h3>
+      <div class="social-icons">
+        <a href="#" title="Facebook">📘 Facebook</a><br>
+        <a href="#" title="Twitter">🐦 Twitter</a><br>
+        <a href="#" title="Instagram">📸 Instagram</a>
+      </div>
+    </div>
+  
+    <div class="footer-note">
+      <p>&copy; 2025 Winners Junior School. All rights reserved.</p>
+    </div>
+  </footer>
+  
